@@ -2,9 +2,13 @@
 
 This is 4 pages Front End website design
 
-Web Technologies used: HTML, CSS, JS
+## Web Technologies used: 
+-HTML
+-CSS
+-Javascript
 
-IDE: VS-Code
+## IDE: 
+-VS-Code
 
 ### Industry :
 Lifestyle
