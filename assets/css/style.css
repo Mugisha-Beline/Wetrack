@@ -1,0 +1,19 @@
+
+.login-form,
+.signup-form {
+    display: none;
+}
+.login a{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+.login{
+    color: white;
+    display: flex;
+    
+}
+.login-form,
+.signup-form {
+    margin-top: 30px;
+}
