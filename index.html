@@ -67,7 +67,7 @@
               <li><a href="#" onclick="showLoginForm();">Login</a></li>
               <li><a href="#" onclick="showSignupForm();">Sign Up</a></li>
               <div id="login-form" class="login-form">
-                <h2>Login</h2>
+                <h2>Login form</h2>
                 <!-- Add your login form elements here -->
                 <form>
                   <label for="username">Username:</label>
@@ -76,7 +76,7 @@
                   <label for="password">Password:</label>
                   <input type="password" id="password" name="password">
                   <br><br>
-                  <input type="submit" value="Submit">
+                  <input type="submit" value="Submit" onclick="showAlert()">
                 </form>
               </div>
             
@@ -85,15 +85,15 @@
                 <!-- Add your sign-up form elements here -->
                 <form>
                   <label for="new-username">Username:</label>
-                  <input type="text" id="new-username" name="new-username">
+                  <input type="text" id="new-username" name="new-username" required>
                   <br><br>
                   <label for="new-password">Password:</label>
-                  <input type="password" id="new-password" name="new-password">
+                  <input type="password" id="new-password" name="new-password" required>
                   <br><br>
                   <label for="confirm-password">Confirm Password:</label>
-                  <input type="password" id="confirm-password" name="confirm-password">
+                  <input type="password" id="confirm-password" name="confirm-password" required>
                   <br><br>
-                  <input type="submit" value="Sign Up">
+                  <input type="submit" value="Sign Up" onclick="showAlert()">
                 </form>
               </div>
             </div>

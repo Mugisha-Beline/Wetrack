@@ -2,6 +2,7 @@
 .login-form,
 .signup-form {
     display: none;
+    margin-top: 30px;
 }
 .login a{
     color: rgb(245, 12, 12);
@@ -10,9 +11,10 @@
     font-size: larger;
 }
 .login{
-    color:  rgb(245, 12, 12);
-    display: flex;}
+    color: bisque;
+    display: flex;
+}
     
 .login h2{
-    color:  rgb(245, 12, 12);
+    color: bisque;
 }

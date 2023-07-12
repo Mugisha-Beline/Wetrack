@@ -11,3 +11,7 @@ function showSignupForm() {
   loginForm.style.display = "none";
   signupForm.style.display = "block";
 }
+
+function showAlert() {
+  alert("you are successfully logged in");
+}
