@@ -4,16 +4,15 @@
     display: none;
 }
 .login a{
-    color: white;
-    margin-top: 0px;
-    margin-bottom: 1rem;
+    color: rgb(245, 12, 12);
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: larger;
 }
 .login{
-    color: white;
-    display: flex;
+    color:  rgb(245, 12, 12);
+    display: flex;}
     
-}
-.login-form,
-.signup-form {
-    margin-top: 30px;
+.login h2{
+    color:  rgb(245, 12, 12);
 }
