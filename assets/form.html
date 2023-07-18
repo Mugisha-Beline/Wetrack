@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Model with Pop-up</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Enter your search query...">
+        <button onclick="search()">Search</button>
+    </div>
+
+    <div id="search-results" class="results-container">
+        <!-- Search results will be displayed here -->
+    </div>
+
+    <div id="popup-modal" class="popup-modal">
+        <span class="close-button" onclick="closePopup()">&times;</span>
+        <div id="popup-content" class="popup-content">
+            <!-- Searched result details will be displayed here -->
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
+
