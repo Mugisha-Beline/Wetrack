@@ -10,7 +10,6 @@
     rel="stylesheet">
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
-  <script src="/assets/js/script.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -53,11 +52,15 @@
             <!-- search popup -->
             <div id="search" class="pop-overlay">
               <div class="popup">
-                <form action="#" method="GET" class="w3l-hnyform d-sm-flex">
-                  <input type="search" placeholder="Search.." name="search" required="required" autofocus>
+                <form action="#" id="search-form" method="GET" class="w3l-hnyform d-sm-flex">
+                  <input type="search" id="searchInput" name="search" required="required" autofocus>
                   <button type="submit">Search</button>
+
                   <a class="close" href="#url">&times;</a>
                 </form>
+
+                <div id="result">
+                </div>
               </div>
             </div>
             
@@ -787,6 +790,7 @@
   <!--//MENU-JS-->
 
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/script.js"></script>
 
 </body>
 
