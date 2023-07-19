@@ -19,8 +19,9 @@ function showAlert() {
 
 const animals = [
   { name: "African Elephant", description: "The African Elephant is the largest land mammal, characterized by its long trunk, large ears, and tusks." },
-  { name: "Bengal Tiger", description: "The Bengal Tiger is a powerful carnivorous cat native to the Indian subcontinent. It has a distinctive orange coat with black stripes and is known for its strength and agility." },
-  // Add more animals here
+  { name: "Tiger", description: "The Bengal Tiger is a powerful carnivorous big cat. It has a distinctive orange coat with black stripes and is known for its strength and agility." },
+  { name: "Lion", description: "The lion is a large carnivorous mammal."},
+  { name: "giraffe", description: "The giraffe is a tall African mammal." },
 ];
 
 // Function to perform the search
