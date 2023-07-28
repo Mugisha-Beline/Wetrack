@@ -1,4 +1,4 @@
-# Click here to access the website # <a href="https://wetrack.vercel.app/"> We track Website </a>
+# Click here to access the website <a href="https://wetrack.vercel.app/"> We track Website </a>
 
 This is 4 pages Front End website design
 
@@ -16,6 +16,9 @@ Lifestyle
 
 ### Project Title :
 Save Wildlife Save Nature Website 
+
+### Project clone
+git clone https://github.com/Mugisha-Beline/Wetrack.git
 
 
 ### Project Description :
